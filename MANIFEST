@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+lib/Catalyst/Authentication/Credential/RPX.pm
+t/05_token.t
+t/mock/Net/API/RPX.pm
