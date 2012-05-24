@@ -1,4 +1,21 @@
-Revision history for Catalyst-Authentication-Credential-RPX
+﻿Revision history for Catalyst-Authentication-Credential-RPX
+
+0.10060100 2012-05-24T10:57:18Z
+ - Maintenance Release
+
+ [Dependencies::Changed::Develop]
+ - recommends : Dist::Zilla::PluginBundle::Author::KENTNL::Lite
+   0.01009803 -> v1.3.0
+ - suggests : Dist::Zilla::PluginBundle::Author::KENTNL v1.0.0 -> v1.3.0
+
+ [Dependencies::Changed::Runtime]
+ - requires : Net::API::RPX 0.01 -> 0.04
+
+ [Dependencies::New::Runtime]
+ - requires : perl 5.006
+
+ [Tests::New]
+ - release/minimum-version
 
 0.10053906 2011-10-22T14:03:24Z
  - Maintenance Release

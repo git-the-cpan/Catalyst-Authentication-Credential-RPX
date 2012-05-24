@@ -6,7 +6,7 @@ BEGIN {
   $Catalyst::Authentication::Credential::RPX::AUTHORITY = 'cpan:KENTNL';
 }
 {
-  $Catalyst::Authentication::Credential::RPX::VERSION = '0.10053906';
+  $Catalyst::Authentication::Credential::RPX::VERSION = '0.10060100';
 }
 
 # ABSTRACT: Use JanRain's RPX service for Credentials
@@ -126,7 +126,7 @@ Catalyst::Authentication::Credential::RPX - Use JanRain's RPX service for Creden
 
 =head1 VERSION
 
-version 0.10053906
+version 0.10060100
 
 =head1 SYNOPSIS
 
@@ -248,7 +248,7 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2011 by 'Cloudtone Studios'.
+This software is Copyright (c) 2012 by 'Cloudtone Studios'.
 
 This is free software, licensed under:
 

@@ -12,7 +12,7 @@ my $v = "\n";
 
 eval {                     # no excuses!
     # report our Perl details
-    my $want = "any version";
+    my $want = '5.006';
     my $pv = ($^V || $]);
     $v .= "perl: $pv (wanted $want) on $^O from $^X\n\n";
 };
@@ -48,15 +48,15 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
-eval { $v .= pmver('Dist::Zilla::PluginBundle::Author::KENTNL','1.0.0') };
-eval { $v .= pmver('Dist::Zilla::PluginBundle::Author::KENTNL::Lite','0.01009803') };
+eval { $v .= pmver('Dist::Zilla::PluginBundle::Author::KENTNL','v1.3.0') };
+eval { $v .= pmver('Dist::Zilla::PluginBundle::Author::KENTNL::Lite','v1.3.0') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
 eval { $v .= pmver('Module::Build','0.3601') };
 eval { $v .= pmver('Moose','any version') };
 eval { $v .= pmver('MooseX::Has::Sugar','0.0300') };
 eval { $v .= pmver('MooseX::Types::Moose','any version') };
-eval { $v .= pmver('Net::API::RPX','0.01') };
+eval { $v .= pmver('Net::API::RPX','0.04') };
 eval { $v .= pmver('Test::Fatal','any version') };
 eval { $v .= pmver('Test::MockObject','any version') };
 eval { $v .= pmver('Test::More','0.88') };

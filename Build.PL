@@ -22,7 +22,7 @@ my %module_build_args = (
     "Kent Fredric <kentnl\@cpan.org>"
   ],
   "dist_name" => "Catalyst-Authentication-Credential-RPX",
-  "dist_version" => "0.10053906",
+  "dist_version" => "0.10060100",
   "license" => "bsd",
   "module_name" => "Catalyst::Authentication::Credential::RPX",
   "recommends" => {},
@@ -31,8 +31,9 @@ my %module_build_args = (
     "Moose" => 0,
     "MooseX::Has::Sugar" => "0.0300",
     "MooseX::Types::Moose" => 0,
-    "Net::API::RPX" => "0.01",
+    "Net::API::RPX" => "0.04",
     "namespace::autoclean" => 0,
+    "perl" => "5.006",
     "strict" => 0,
     "warnings" => 0
   },
